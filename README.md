@@ -5,7 +5,7 @@ This webpage is the personal developer portfolio of John Desrosiers. This site w
 * [Freelancer Template](https://startbootstrap.com/template-overviews/freelancer/) (MIT License)
 
 ## To Do
-- [ ] Remove php contact form
+- [x] Remove php contact form
 - [ ] Update Navbar
 - [ ] update hero
 - [ ] Get images for projects
@@ -13,6 +13,7 @@ This webpage is the personal developer portfolio of John Desrosiers. This site w
 - [ ] Update the about section
 - [ ] Update contact section
 - [ ] Deploy static page
+- [ ] Find or create favicon
 - [ ] Customzie colors and styling
 - [ ] Create node contact form and server and deploy
 
