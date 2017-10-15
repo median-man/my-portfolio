@@ -5,8 +5,15 @@ This webpage is the personal developer portfolio of John Desrosiers. This site w
 * [Freelancer Template](https://startbootstrap.com/template-overviews/freelancer/) (MIT License)
 
 ## To Do
-- [ ] Format/Edit images to same size
 - [ ] Create modals for each project
+  - [x] codeDeck
+  - [x] Quote Cards
+  - [ ] Board Game Trivia
+  - [ ] Hangman National Parks
+  - [ ] Gif Tastic Gallery
+  - [ ] Eat Da Burger
+- [ ] Format/Edit images to same size for portfolio section and modals
+- [ ] Add alt attr to portfolio images (including modals)
 - [ ] Update the about section
 - [ ] Update contact section
 - [ ] Deploy static page
