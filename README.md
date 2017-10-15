@@ -6,7 +6,7 @@ This webpage is the personal developer portfolio of John Desrosiers. This site w
 
 ## To Do
 - [x] Remove php contact form
-- [ ] Update Navbar
+- [x] Update Navbar
 - [ ] update hero
 - [ ] Get images for projects
 - [ ] Create modals for each project
