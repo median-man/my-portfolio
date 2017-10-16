@@ -5,7 +5,7 @@ This webpage is the personal developer portfolio of John Desrosiers. This site w
 * [Freelancer Template](https://startbootstrap.com/template-overviews/freelancer/) (MIT License)
 
 ## To Do
-- [ ] Deploy static page
+- [ ] Automate deployment to google cloud
 - [ ] Format/Edit images to same size for portfolio section and modals
 - [ ] Add alt attr to portfolio images (including modals)
 - [ ] Find or create favicon
