@@ -2,8 +2,8 @@
 const cleanCSS = require('gulp-clean-css');
 const gulp = require('gulp');
 const header = require('gulp-header');
-// const gutil = require('gulp-util');
 const rename = require('gulp-rename');
+const replace = require('gulp-replace');
 const uglify = require('gulp-uglify');
 
 // Set the banner content for files from Freelancer Template
@@ -33,8 +33,16 @@ gulp.task('minify-js', () => gulp
 // copy files
 gulp.task('copy', () => {
   gulp.src('src/vendor/**').pipe(gulp.dest('build/vendor'));
-  gulp.src('src/index.html').pipe(gulp.dest('build'));
   gulp.src('src/img/**').pipe(gulp.dest('build/img'));
 });
 
-gulp.task('default', ['minify-css', 'minify-js', 'copy']);
+// User minified source files in index.html
+gulp.task('htmlBuild', () => {
+  gulp
+    .src('src/index.html')
+    .pipe(replace('freelancer.css', 'freelancer.min.css'))
+    .pipe(replace('freelancer.js', 'freelancer.min.js'))
+    .pipe(gulp.dest('build'));
+});
+
+gulp.task('default', ['minify-css', 'minify-js', 'copy', 'htmlBuild']);
