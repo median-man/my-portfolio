@@ -22,10 +22,17 @@ gulp.task('minify-css', () => gulp
   .pipe(rename({ suffix: '.min' }))
   .pipe(gulp.dest('build/css')));
 
-// minify javascript
+// minify javascript files in src/js
 gulp.task('minify-js', () => gulp
   .src('src/js/**/*.js')
   .pipe(uglify())
   .pipe(header(freelancerBanner))
   .pipe(rename({ suffix: '.min' }))
   .pipe(gulp.dest('build/js')));
+
+// copy files
+gulp.task('copy', () => {
+  gulp.src('src/vendor/**').pipe(gulp.dest('build/vendor'));
+  gulp.src('src/index.html').pipe(gulp.dest('build'));
+  gulp.src('src/img/**').pipe(gulp.dest('build/img'));
+});
