@@ -1,5 +1,6 @@
 /* eslint-env node es6 */
 const cleanCSS = require('gulp-clean-css');
+const compileHb = require('./scripts/compileHandlebars.js');
 const gulp = require('gulp');
 const header = require('gulp-header');
 const rename = require('gulp-rename');
@@ -44,5 +45,8 @@ gulp.task('htmlBuild', () => {
     .pipe(replace('freelancer.js', 'freelancer.min.js'))
     .pipe(gulp.dest('build'));
 });
+
+// Compile hbs files to html
+gulp.task('compileHbs', compileHb);
 
 gulp.task('default', ['minify-css', 'minify-js', 'copy', 'htmlBuild']);
