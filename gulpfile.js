@@ -36,3 +36,5 @@ gulp.task('copy', () => {
   gulp.src('src/index.html').pipe(gulp.dest('build'));
   gulp.src('src/img/**').pipe(gulp.dest('build/img'));
 });
+
+gulp.task('default', ['minify-css', 'minify-js', 'copy']);
