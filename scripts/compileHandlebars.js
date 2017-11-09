@@ -12,22 +12,17 @@ const projDescription = function getProjectDescriptionFile(fname) {
   return fs.readFileSync(detailsFileName);
 };
 
-// Gets the description html for each project
-const getDescriptions = function getProjectDescriptions(projects) {
-  projects.forEach((project) => {
-    const detailsFileName = path.join(__dirname, `../src/template/descriptions/${project.descriptionFile}.hbs`);
-    project.description = fs.readFileSync(detailsFileName);
-  });
+// Returns the name of a description partial
+const whichDescription = function whichDescriptionPartial(name) {
+  return `descriptions/${name}`;
 };
 
-
 module.exports = function compileHandlebars() {
-  // const helpers = { projDescription };
   const options = {
     batch: [path.join(__dirname, '../src/template/partials')],
+    helpers: { whichDescription },
   };
   const templateData = { projects };
-  getDescriptions(templateData.projects);
   return gulp
     .src(path.join(__dirname, '../src/index.hbs'))
     .pipe(handlebars(templateData, options))

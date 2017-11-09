@@ -2,7 +2,7 @@
   {
     "title": "codeDeck",
     "img": "codeDeck.JPG",
-    "descriptionFile": "codeDeck",
+    "descriptionPartial": "codeDeck",
     "demoUrl": "https://median-man.github.io/codeDeck/",
     "repoUrl": "https://github.com/median-man/codeDeck",
     "date": "September 2017"
@@ -10,7 +10,7 @@
   {
     "title": "Quote Cards",
     "img": "quoteCards.JPG",
-    "descriptionFile": "quoteCards",
+    "descriptionPartial": "quoteCards",
     "demoUrl": "",
     "repoUrl": "https://github.com/median-man/Quote-Cards",
     "date": "September 2017"
@@ -19,7 +19,7 @@
   {
     "title": "Trivia Game",
     "img": "trivia.JPG",
-    "descriptionFile": "triviaGame",
+    "descriptionPartial": "triviaGame",
     "demoUrl": "https://median-man.github.io/TriviaGame/",
     "repoUrl": "https://github.com/median-man/TriviaGame",
     "date": "August 2017"
@@ -27,7 +27,7 @@
   {
     "title": "Hangman: National Parks",
     "img": "hangmanNP.jpg",
-    "descriptionFile": "hangmanNP",
+    "descriptionPartial": "hangmanNP",
     "demoUrl": "https://median-man.github.io/Hangman-National-Parks/",
     "repoUrl": "https://github.com/median-man/Hangman-National-Parks",
     "date": "August 2017"
@@ -35,7 +35,7 @@
   {
     "title": "Gif-Tastic Gallery",
     "img": "giftastic.JPG",
-    "descriptionFile": "giftastic",
+    "descriptionPartial": "giftastic",
     "demoUrl": "https://median-man.github.io/Gif-Tastic-Gallery/",
     "repoUrl": "https://github.com/median-man/Gif-Tastic-Gallery",
     "date": "August 2017"
@@ -43,7 +43,7 @@
   {
     "title": "Eat-Da-Burger",
     "img": "burger.JPG",
-    "descriptionFile": "eatDaBurger",
+    "descriptionPartial": "eatDaBurger",
     "demoUrl": "https://eat-da-burgs.herokuapp.com/",
     "repoUrl": "https://github.com/median-man/Eat-Da-Burger",
     "date": "September 2017"

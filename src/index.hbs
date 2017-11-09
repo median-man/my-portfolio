@@ -164,7 +164,10 @@
                   <h2>{{title}}</h2>
                   <hr class="star-primary">
                   <img class="img-fluid img-centered" src="img/portfolio/{{img}}" alt="">
-                  {{{description}}}
+
+                  {{!-- Dynamically select partial with the project description --}}
+                  {{> (whichDescription descriptionPartial)}}
+
                   <ul class="list-inline item-details">
                     {{#if demoUrl}}
                     <li>Live Demo:
