@@ -165,9 +165,11 @@
                   <hr class="star-primary">
                   <img class="img-fluid img-centered" src="img/portfolio/{{img}}" alt="">
 
-                  {{!-- Dynamically select partial with the project description --}}
-                  {{> (whichDescription descriptionPartial)}}
-
+                    {{!-- Dynamically select partial with the project description --}}
+                  <div class="project description">
+                    {{> (whichDescription descriptionPartial)}}
+                  </div>
+                  
                   <ul class="list-inline item-details">
                     {{#if demoUrl}}
                     <li>Live Demo:

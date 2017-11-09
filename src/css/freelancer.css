@@ -465,4 +465,8 @@ footer {
 /* Contact Me Section */
 #contact .list-inline-item:not(:last-child) {
   margin-right: 15px; }
-  
+
+/* Portfolio Item Modal */
+.project.description {
+  text-align: justify;
+}
