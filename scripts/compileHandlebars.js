@@ -15,7 +15,7 @@ const projDescription = function getProjectDescriptionFile(fname) {
 // Gets the description html for each project
 const getDescriptions = function getProjectDescriptions(projects) {
   projects.forEach((project) => {
-    const detailsFileName = path.join(__dirname, `../src/template/descriptions/${project.descriptionFile}.txt`);
+    const detailsFileName = path.join(__dirname, `../src/template/descriptions/${project.descriptionFile}.hbs`);
     project.description = fs.readFileSync(detailsFileName);
   });
 };
