@@ -48,4 +48,4 @@ gulp.task('htmlBuild', () => {
 // Compile hbs files to html
 gulp.task('compileHbs', compileHb);
 
-gulp.task('default', ['minify-css', 'minify-js', 'copy', 'htmlBuild']);
+gulp.task('default', ['compileHbs', 'minify-css', 'minify-js', 'copy', 'htmlBuild']);
