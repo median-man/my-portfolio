@@ -1,0 +1,8 @@
+<p>
+  Quote Cards is a command line quiz game API built with NodeJS and the 
+  <a href="https://www.npmjs.com/package/inquirer"><i>inquirer</i></a> 
+  command line API for node. The Quote Cards API allows users to build a simple quiz game by
+  editing the file for the appropriate quiz type. Users can use the provided starter content 
+  or use their own content by editing the files indicated under "Getting Started" 
+  in the readme.
+</p>
