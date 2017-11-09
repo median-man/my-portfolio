@@ -1,6 +1,5 @@
-/* eslint-env node es6 */
 const cleanCSS = require('gulp-clean-css');
-const compileHb = require('./scripts/compileHandlebars.js');
+const compileHb = require('./utils/compileHandlebars.js');
 const gulp = require('gulp');
 const header = require('gulp-header');
 const rename = require('gulp-rename');
