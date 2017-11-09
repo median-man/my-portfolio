@@ -1,5 +1,4 @@
-
-const fs = require('fs');
+/* eslint import/no-extraneous-dependencies: off */
 const gulp = require('gulp');
 const handlebars = require('gulp-compile-handlebars');
 const path = require('path');
