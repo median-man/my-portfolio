@@ -15,6 +15,14 @@ const freelancerBanner =
 */
 `;
 
+const updateHtmlLinks = function updateHtmlSourceLinksAndCopyToBuild() {
+  gulp
+    .src('src/index.html')
+    .pipe(replace('freelancer.css', 'freelancer.min.css'))
+    .pipe(replace('freelancer.js', 'freelancer.min.js'))
+    .pipe(gulp.dest('build'));
+};
+
 // minify css file
 gulp.task('minify-css', () => gulp
   .src('src/css/**/*.css')
@@ -37,15 +45,11 @@ gulp.task('copy', () => {
 });
 
 // User minified source files in index.html
-gulp.task('htmlBuild', () => {
-  gulp
-    .src('src/index.html')
-    .pipe(replace('freelancer.css', 'freelancer.min.css'))
-    .pipe(replace('freelancer.js', 'freelancer.min.js'))
-    .pipe(gulp.dest('build'));
-});
+gulp.task('htmlLinks', updateHtmlLinks);
 
 // Compile hbs files to html
 gulp.task('compileHbs', compileHb);
 
-gulp.task('default', ['compileHbs', 'minify-css', 'minify-js', 'copy', 'htmlBuild']);
+gulp.task('default', ['compileHbs', 'minify-css', 'minify-js', 'copy'], () => {
+  updateHtmlLinks();
+});
