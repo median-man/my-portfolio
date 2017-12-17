@@ -8,11 +8,11 @@
     "date": "September 2017"
   },
   {
-    "title": "Quote Cards",
-    "img": "quoteCards.JPG",
-    "descriptionPartial": "quoteCards",
-    "demoUrl": "",
-    "repoUrl": "https://github.com/median-man/Quote-Cards",
+    "title": "Train Scheduler",
+    "img": "trainScheduler.JPG",
+    "descriptionPartial": "trainScheduler",
+    "demoUrl": "https://median-man.github.io/Train-Scheduler/",
+    "repoUrl": "https://github.com/median-man/Train-Scheduler",
     "date": "September 2017"
 
   },
