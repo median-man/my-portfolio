@@ -456,11 +456,16 @@ footer {
 #portfolio .portfolio-item .portfolio-link {
   max-width: 500px; }
 
+#portfolio .portfolio-item .portfolio-link .caption {
+  background: rgba(44,62,80,.9);
+}
+
 #portfolio .portfolio-item .portfolio-link .caption .caption-content {
   top: 40%; }
 
 #portfolio .portfolio-item .portfolio-link .caption .caption-content h3 {
-  margin: 20px 0; }
+  margin: 20px 0;
+}
 
 /* Contact Me Section */
 #contact .list-inline-item:not(:last-child) {
