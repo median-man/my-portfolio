@@ -14,6 +14,11 @@ After making changes, run `npm run-script build` to build the page.
   "title": "Project Title",
   "img": "project.jpg",
   "descriptionPartial": "triviaGame",
+  "keyWords": [
+    "JavaScript",
+    "CSS",
+    "Limit to 4 or 5 key words"
+  ],
   "demoUrl": "url for demo",
   "repoUrl": "url for GitHub repo",
   "date": "month year"
