@@ -1,12 +1,24 @@
 <div class="col-lg-6 portfolio-item">
-  <a class="portfolio-link" href="#portfolioModal{{@index}}" data-toggle="modal">
+  <a
+    class="portfolio-link"
+    href="#portfolioModal{{@index}}"
+    data-toggle="modal"
+  >
     <div class="caption">
       <div class="caption-content">
         <i class="fa fa-search-plus fa-2x"></i>
         <h3>{{title}}</h3>
-        <em>{{date}}</em>
+
+        {{#each keyWords}}
+        <span class="badge badge-light">{{this}}</span>
+        {{/each}}
+
       </div>
     </div>
-    <img class="img-fluid" src="img/portfolio/{{img}}" alt="">
+    <img
+      class="img-fluid"
+      src="img/portfolio/{{img}}"
+      alt=""
+    >
   </a>
 </div>
