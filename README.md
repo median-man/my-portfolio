@@ -1,23 +1,15 @@
 # My Portfolio
 This webpage is the personal developer portfolio of John Desrosiers. This site was built using the [Freelancer](https://startbootstrap.com/template-overviews/freelancer/) template from [Start Bootstrap](https://startbootstrap.com/).
 
-## Deploying with Firebase Hosting
-Deploy from the command line or configure Travis CI to deploy to Firebase Hosting.
+## Deploying on Firebase
+0. Ensure pre-requesites for deploying to Firebase are met.
+1. Run `npm run-script build` to build the page if this hasn't already been done.
+2. Run `firebase login`
+3. From the root directory, run `firebase deploy`.
 
 ### Pre-requisites
 * [Create a Firebase project](https://firebase.google.com/docs/web/setup).
 * Firebase CLI must be installed on the machine. `npm i -g firebase-tools`.
-
-### Configure for Travis CI
-1. Run `firebase login:ci` to print a token on the console.
-2. Add token as `FIREBASE_TOKEN` to [Environment Variables][travis-env-vars] for the repository on Travis CI.
-
-[travis-env-vars]: https://docs.travis-ci.com/user/environment-variables#defining-variables-in-repository-settings
-
-### Deploying on Firebase from the command line
-1. Run `npm run-script build` to build the page if this hasn't already been done.
-2. Run `firebase login`
-3. From the root directory, run `firebase deploy`.
 
 ## Usage/Editing Content
 * Make edits to the page template in `/template/index.hbs`.
