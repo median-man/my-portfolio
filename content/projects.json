@@ -1,0 +1,57 @@
+[
+  {
+    "title": "codeDeck",
+    "img": "codeDeck.JPG",
+    "descriptionPartial": "codeDeck",
+    "keyWords": ["JavaScript", "Firebase", "AJAX", "jQuery", "CSS"],
+    "demoUrl": "https://codedeck-learning-tools.github.io/codeDeck/",
+    "repoUrl": "https://github.com/median-man/codeDeck",
+    "date": "September 2017"
+  },
+  {
+    "title": "Train Scheduler",
+    "img": "trainScheduler.JPG",
+    "descriptionPartial": "trainScheduler",
+    "keyWords": ["JavaScript", "Firebase", "HTML5", "Bootstrap", "jQuery"],
+    "demoUrl": "https://median-man.github.io/Train-Scheduler/",
+    "repoUrl": "https://github.com/median-man/Train-Scheduler",
+    "date": "September 2017"
+
+  },
+  {
+    "title": "Board Game Trivia",
+    "img": "trivia.JPG",
+    "descriptionPartial": "triviaGame",
+    "keyWords": ["JavaScript", "jQuery", "HTML5", "Bootstrap", "CSS"],
+    "demoUrl": "https://median-man.github.io/TriviaGame/",
+    "repoUrl": "https://github.com/median-man/TriviaGame",
+    "date": "August 2017"
+  },
+  {
+    "title": "Hangman: National Parks",
+    "img": "hangmanNP.JPG",
+    "descriptionPartial": "hangmanNP",
+    "keyWords": ["JavaScript", "HTML5", "Bootstrap", "CSS"],
+    "demoUrl": "https://median-man.github.io/Hangman-National-Parks/",
+    "repoUrl": "https://github.com/median-man/Hangman-National-Parks",
+    "date": "August 2017"
+  },
+  {
+    "title": "Gif-Tastic Gallery",
+    "img": "giftastic.JPG",
+    "descriptionPartial": "giftastic",
+    "keyWords": ["JavaScript", "jQuery", "AJAX", "Mocha", "Chai"],
+    "demoUrl": "https://median-man.github.io/Gif-Tastic-Gallery/",
+    "repoUrl": "https://github.com/median-man/Gif-Tastic-Gallery",
+    "date": "August 2017"
+  },
+  {
+    "title": "Eat-Da-Burger",
+    "img": "burger.JPG",
+    "descriptionPartial": "eatDaBurger",
+    "keyWords": ["Express", "Handlebars", "MySQL", "REST API", "AJAX"],
+    "demoUrl": "https://eat-da-burgs.herokuapp.com/",
+    "repoUrl": "https://github.com/median-man/Eat-Da-Burger",
+    "date": "September 2017"
+  }
+]
