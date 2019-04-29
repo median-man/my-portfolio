@@ -1,6 +1,9 @@
 # My Portfolio
 
-This webpage is the personal developer portfolio of John Desrosiers. This site was built using the [Freelancer](https://startbootstrap.com/template-overviews/freelancer/) template from [Start Bootstrap](https://startbootstrap.com/).
+This webpage is the personal developer portfolio of John Desrosiers. This site
+was built using the
+[Freelancer](https://startbootstrap.com/template-overviews/freelancer/) template
+from [Start Bootstrap](https://startbootstrap.com/).
 
 ## Deploying on Firebase
 
@@ -17,7 +20,10 @@ This webpage is the personal developer portfolio of John Desrosiers. This site w
 ## Usage/Editing Content
 
 - Make edits to the page template in `/template/index.hbs`.
-- Change the "Portfolio" section content by editing `/template/contactData.json`. Place project images in `/src/img/portfolio` and the html for the description should be placed in `template/partials/descriptions/` as a handlebars file. (hbs extension)
+- Change the "Portfolio" section content by editing
+  `/template/contactData.json`. Place project images in `/src/img/portfolio` and
+  the html for the description should be placed in
+  `template/partials/descriptions/` as a handlebars file. (hbs extension)
 - Change the "Contact" section by editing the data `/template/contactData.json`.
 
 After making changes, run `npm run build` to build the page.
@@ -47,11 +53,13 @@ After making changes, run `npm run build` to build the page.
 
 ## Manual Testing
 
-`manual-testing-spec.md` is a bulleted work flow for manually testing the page after building it.
+`manual-testing-spec.md` is a bulleted work flow for manually testing the page
+after building it.
 
 ## Built With
 
-- [Freelancer Template](https://startbootstrap.com/template-overviews/freelancer/) (MIT License)
+- [Freelancer Template](https://startbootstrap.com/template-overviews/freelancer/)
+  (MIT License)
 
 ## Author
 
